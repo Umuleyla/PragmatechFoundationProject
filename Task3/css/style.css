@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container-full {
+    width: 1366px;
+    height: 20px;
+    background-color:black;
+}
+.container-main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+     background-color: #e6dddd;
+     color: darkgrey;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-left a{
+    color: #483f3f;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: 600;
+}
+.navigation-left i {
+    padding-right: 5px;
+}
+.navigation-left{
+    padding: 20px 0px 20px 0px;
+}
+.navigation-right{
+    padding: 20px 0px 20px 0px;
+}
+.navigation-right ul {
+    list-style: none;
+}
+.navigation-right li {
+    display: inline-block;
+   }
+.navigation-right li a {
+    color: #483f3f;
+    font-size: 16px;
+    text-decoration:none;
+    font-weight: 600;
+    padding-left: 10px; 
+}
+/* Section main */
+.main {
+    padding: 100px 0px 100px 0px;
+}
+.main-name h1 {
+    font-size: 41px;
+    font-weight: 1000;
+    color: gray;
+}
+.main-text p {
+    color: gray;
+    font-size: 20px;
+}
+.main-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+}
+.main-button i {
+    padding-left: 15px;
+}
+.main-name {
+    margin-bottom: 34px;
+}
+.main-text {
+    margin-bottom: 34px;
+}
+.main-image img {
+    height: 300px;
+    width: 500px;
+}
+
+/* Info section */
+.container-box {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.info {
+    background-color: #e6dddd;
+    padding: 100px 0px;
+}
+
+.box {
+    display: grid;
+    background-color: white;
+}
+.box-img img {
+    width: 327px;
+    height: 218px;
+}
+.box-info {
+    background-color: white;
+    padding: 25px;
+    text-align: center ;
+}    
+
+.box-text {
+    padding-bottom: 10px;
+}
+
+.box-header {
+    padding-bottom: 10px;
+}
