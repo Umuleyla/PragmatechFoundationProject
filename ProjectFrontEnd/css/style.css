@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body{
  font-family: 'Lato', sans-serif;
 }
+
 *{
     padding: 0px;
     margin: 0px;
@@ -104,4 +106,155 @@ header{
     text-align: center;
     padding: 10px;
     font-size: 14px;
+}
+.main-intro{
+    color: #e3117c;
+    font-size: 44px;
+    font-weight: 400;
+}
+.intro{
+    padding: 100px;
+}
+.main-intro{
+    margin: 0px;
+    padding: 0px;
+}
+.main-text p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 1.5em 0 1em 0;
+    letter-spacing: 1px;
+}
+.main-text1 p{
+    line-height: 28px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+.intro-img img {
+    width: 100%;
+}
+.bottom-row{
+    margin-top: 17px;
+}
+.services-title h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.services-title{
+    margin: 50px 0px;
+}
+.services-oilmassage{
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    }
+.services-oilmassage p{
+    padding: 6px 25px;
+}
+.services-skinscrub{
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    background-color: #e3117c;
+    margin-top: 25px;
+    }
+.services-skinscrub p{
+    padding: 6px;
+}
+.services-bodywrap{
+    position: relative;
+    padding: 15px;;
+    text-align: center;
+    background-color: white;
+    margin-top: 25px;
+    }
+.services-bodywrap p{
+    padding: 6px 25px;
+}
+.services{
+    background-image: url(../image/g5.jpg) ;
+}
+    
+.services-dryer{
+    position: relative;
+    padding: 30px 29px;
+    background-color: #e6adbc;
+    margin-bottom: 30px;
+    }
+.cut{
+    padding-bottom: 12px;
+}
+.cut i{
+    font-size: 27px;
+}
+.cut i:hover{
+    color: white;
+    transition: 0.5s all;
+}
+.services-dryer p{
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.services-cut{
+    position: relative;
+    padding: 30px 29px;
+    background-color: #add8e6;
+    }
+.diamond{
+    padding-bottom: 12px;
+}
+.diamond i{
+    font-size: 27px;
+}
+.diamond i:hover{
+    color: white;
+    transition: 0.5s all;
+}
+.services-cut p{
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.services-shaving{
+    position: relative;
+    padding: 30px 29px;
+    background-color: #f64a5f;
+    }
+.magic{
+    padding-bottom: 12px;
+}
+.magic i{
+    font-size: 27px;
+}
+.magic i:hover{
+    color: white;
+    transition: 0.5s all;
+}
+.services-shaving p{
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.services-coloring{
+    position: relative;
+    padding: 30px 29px;
+    background-color: #b1e6ad;
+    margin-bottom: 30px;
+    }
+.shield{
+    padding-bottom: 12px;
+}
+.shield i{
+    font-size: 27px;
+}
+.shield i:hover{
+    color: white;
+    transition: 0.5s all;
+}
+.services-coloring p{
+    line-height: 33px;
+    letter-spacing: 1px;
 }
