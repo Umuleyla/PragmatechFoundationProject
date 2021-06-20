@@ -74,6 +74,7 @@ header{
 .side-menu{
     position: fixed;
     right: 0px;
+    z-index: 3;
     bottom: 220px;
     height: 333px;
     background:#0D1326;
@@ -258,3 +259,47 @@ header{
     line-height: 33px;
     letter-spacing: 1px;
 }
+.gallery-title h1{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.gallery-img img{
+    width: 100%;
+    
+}
+.gallery-text{
+    text-align: center;
+}
+.gallery-text h4{
+    font-size: 22px;
+    color: #e3117c;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+.gallery-text p {
+    letter-spacing: 2px;
+}
+.gallery-text{
+    background-color: #ddd;
+    padding: 5px 0px;
+}
+.gallery .col-3 {
+    padding-bottom: 20px;
+    padding-left: 18px;
+}
+.gallery {
+    padding: 70px 0px;
+}
+.gallery-title{
+    margin-bottom: 30px;
+}
+.gallery-img {
+    overflow: hidden;
+}
+.gallery-img img {
+    transition: transform .5s ease;
+  }
+.gallery-img:hover img {
+    transform: scale(1.5);
+  }
