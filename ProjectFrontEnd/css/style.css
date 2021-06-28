@@ -303,3 +303,11 @@ header{
 .gallery-img:hover img {
     transform: scale(1.5);
   }
+.team-tittle h1{
+        text-align: center;
+        font-weight: bold;
+        color: black;
+}
+.team-text{
+    text-align: center;
+}
