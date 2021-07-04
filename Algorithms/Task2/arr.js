@@ -52,8 +52,39 @@ function elementAdd(a) {
 console.log(elementAdd(true));  // typeoff metodundan istifade ederek ötürülen parametrin array elementleri ile eyni typeda olub olmadığını yoxlayır.
 
 
-// for(let i=0;i<6;i++)
-// console.log(i);
+let text = "";
+let i = 0
+while(i < 10) {
+    print ( " Hello World")
+    i++
+};
 
-// let i=1; while(i<8) 
-// {console.log(i); i++};
+let text = ""
+let i = 0;
+
+do {
+    print ( " Hello World")
+    i++
+}
+ while (i < 10); 
+
+ let text = "";
+ let i = 0
+ while (i < 10) {
+    text += "The number is " + i;
+    i++;
+  };
+
+
+  let text = "";
+  let i = 0
+  do {
+    text += "The number is " + i;
+    i++;
+  }
+  while (i < 10);
+
+  let a = [25,5,80,11,32,7,9,90]
+  console.log(Math.max(25,5,80,11,32,7,9,90));
+
+  

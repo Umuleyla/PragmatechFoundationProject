@@ -7,9 +7,21 @@ for dan istifade ederken dövrde deyişenin ilk deyerini ve onun artaraq nece da
 
 for(let i=0;i<5;i++) console.log(i);
 
-while for dan ferqqi ondan ibaretdeir ki. while da dəyişən dövr daxilində artırıla , azaldıla və istədiyi kimi dəyişdirilə bilər. while da dövrdən öncə müəyyən index verilir və sonradan shert verilir. 
+while for dan ferqqi ondan ibaretdeir ki. while da dəyişən dövr daxilində artırıla , azaldıla və istədiyi kimi dəyişdirilə bilər. while da dövrdən öncə müəyyən index verilir və sonradan shert verilir. Müəyyən edilmiş şərt doğru olduğu müddətdə döngülər kod blokunu icra edə bilir. Aşağıdakı nümunədə, (i) dəyişəninin 10-dan az olduğu müddətdə döngüdəki kod dönə-dönə işləyəcək:
 
 let i=1; while(i<5) {console.log(i); i++};
+
+Do while loop, while dövrünün bir variantıdır. Bu döngü şərtin doğruluğunu yoxlamadan əvvəl kod blokunu bir dəfə icra edəcək, sonra şərt doğru olduğu müddətdə döngünü təkrarlayacaqdır. Aşağıdakı nümunədə do while loop istifadə olunur. Kod bloku şərt yoxlanmadan əvvəl yerinə yetirildiyi üçün döngü hər zaman ən azı bir dəfə yerinə yetiriləcək, şərt yalnış olsa bele.
+
+let text = ""
+let i = 0;
+
+do {
+  text += "<br>The number is " + i;
+  i++;
+}
+while (i < 10); 
+
 
 for in, for of, foreeach vasitesile obyektin propertylerine daha asan elde etmek olur.
 
